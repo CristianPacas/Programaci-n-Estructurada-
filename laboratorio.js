@@ -5,7 +5,7 @@
 //Declara las variables necesarias y asigna valores que representen la cantidad actual de cada producto.
 let camisetas = 189;
 let pantalones = 107;
-let zapatos = 200
+let zapatos = 200;
 
 //Usa operadores aritméticos para calcular el total de productos en el inventario
 let TotaldeProductos = camisetas + pantalones + zapatos;
