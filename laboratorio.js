@@ -15,11 +15,15 @@ console.log("Total de Productos en Inventario: " + TotaldeProductos);
 
 //Ejecucion de estructura de control: if, else
 
-if (camisetas<100){console.log ("Es Necesario reponer camisas");
+if (camisetas<100){
+  console.log ("Es Necesario reponer camisas, existencias: " + camisetas);
 }
-if (pantalones<100){console.log("Es necesario reponer pantalones");
+if (pantalones<100){
+  console.log("Es necesario reponer pantalones, existencias: " + pantalones);
 }
-if (zapatos<100){console.log("Es necesario reponer zapatos");
+if (zapatos<100){
+  console.log("Es necesario reponer zapatos, existencias: " + zapatos);
 }
-else {console.log("No es necesario reponer ningún producto");
+if (camisetas >= 100 && pantalones >= 100 && zapatos >= 100){
+  console.log("No es necesario reponer ningún producto");
 }
