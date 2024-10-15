@@ -29,7 +29,7 @@ function encontrarMayorNumero(arr) {
 
 let numeros = [3, 5, 6, 7, 8, 9, 10];
 
-console.log(encontrarMayorNumero(numeros)); // Debe devolver 
+console.log(encontrarMayorNumero(numeros)); // Debe devolver 10
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
