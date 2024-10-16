@@ -1,3 +1,4 @@
+//CRISTIAN DANIEL PACAS GUEVARA U20240388
 function calcularPromedio (notas) { 
     let suma = 0;
     for (let i = 0; i < notas.length; i++) {
