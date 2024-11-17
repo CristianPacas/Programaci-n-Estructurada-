@@ -1,7 +1,7 @@
 //CRISTIAN DANIEL PACAS GUEVARA U20240388
 //Ejercicio 1. 
 //Mensaje con setTimeout 
-/*function saludo() {
+function saludo() {
     console.log(`Hola, bienvenidos a la clase`);
 }
 setTimeout (saludo, 3000);
@@ -70,5 +70,3 @@ function tarea() {
 }
 
 let intervalo2 = setInterval(tarea, 1000);
-
-
